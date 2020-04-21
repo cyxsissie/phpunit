@@ -8,5 +8,15 @@ class Calculator
         $c = $a + $b;
         return $c;
    }
+
+   public function sum(array $items){
+         $total = 0;
+
+         foreach($items as $item){
+            $total +=$item;
+         }
+
+         return $total;
+   }
    
 }
